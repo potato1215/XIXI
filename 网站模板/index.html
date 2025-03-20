@@ -1,0 +1,87 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<title>个人简历网站</title>
+<!-- 样式表 -->
+<link href="css/bootstrap.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<link href="css/responsive.css" rel="stylesheet">
+
+<!-- 网站图标 -->
+<link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+<link rel="icon" href="images/favicon.png" type="image/x-icon">
+<!-- 响应式设置 -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<!--[if lt IE 9]><script src="js/html5shiv.js"></script><![endif]-->
+<!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
+</head>
+
+<body>
+
+<!-- 导航菜单 -->
+<nav class="main-menu">
+    <ul class="navigation clearfix">
+        <li class="current"><a href="#home">首页</a></li>
+        <li><a href="#about">关于</a></li>
+        <li><a href="#resume">简历</a></li>
+        <li><a href="#services">服务</a></li>
+        <li><a href="#work">作品</a></li>
+        <li><a href="#blog">博客</a></li>
+        <li><a href="#contact">联系</a></li>
+    </ul>
+</nav>
+
+<!-- 首页内容 -->
+<div class="card-home card-item active" id="home">
+    <div class="author">
+        <h3>潘元峰</h3>
+        <div class="designation">
+            你好，我是
+            <div class="typing-title">
+                <p>一名<strong>网页开发者。</strong></p>
+                <p>一名<strong>网页设计师。</strong></p>
+                <p>一名<strong>摄影师。</strong></p>
+            </div>
+        </div>
+        <div class="link-btn">
+            <a href="#" class="theme-btn btn-style-one">下载简历</a>
+            <a href="#" class="theme-btn btn-style-two">雇佣我</a>
+        </div>
+    </div>
+</div>
+
+<!-- 关于页面 -->
+<div class="card-about card-item" id="about">
+    <h4 class="title">关于我</h4>
+    <div class="info-list">
+        <ul class="list-style-one">
+            <li><strong>姓名：</strong> 潘元峰</li>
+            <li><strong>电话：</strong> 13337511814</li>
+            <li><strong>地址：</strong> 中国湖南省</li>
+            <li><strong>邮箱：</strong> 652892695@qq.com</li>
+            <li><strong>接自由项目：</strong> 可接</li>
+        </ul>
+    </div>
+</div>
+
+<!-- 服务页面 -->
+<div class="card-services card-item" id="services">
+    <h4 class="title">服务项目</h4>
+    <div class="services-block">
+        <h4><a href="blog-single.html">UI/UX设计</a></h4>
+        <h4><a href="blog-single.html">网页设计</a></h4>
+        <h4><a href="blog-single.html">品牌设计</a></h4>
+        <h4><a href="blog-single.html">标志设计</a></h4>
+    </div>
+</div>
+
+<!-- 联系表单 -->
+<form id="contact-form">
+    <input type="text" name="username" placeholder="姓名" required>
+    <input type="email" name="email" placeholder="邮箱" required>
+    <input type="text" name="subject" placeholder="主题" required>
+    <textarea name="message" placeholder="留言内容"></textarea>
+    <button type="submit">立即提交</button>
+</form>
